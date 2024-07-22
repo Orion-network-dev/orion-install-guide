@@ -1,10 +1,10 @@
-# Accès au système de demande de certificats
+# Step 1 - Obtenir un certificat d'authentification du PKI
 
 ## Création de signature du certificat
 
 L'accès au système de demandes de certificats se fait en utilisant un certificat d'authentification.
 
-Afin de générer ce certificat vous aurez besoin de générér u CSR (Demande de signature de certificats - Certificate Signling Request), pour ceci je vous recommande l'utilisation de OpenSSL.
+Afin de générer ce certificat vous aurez besoin de générér u CSR (Demande de signature de certificats - Certificate Signing Request), pour ceci je vous recommande l'utilisation de OpenSSL.
 
 Génération de la CSR et des clés privées:
 

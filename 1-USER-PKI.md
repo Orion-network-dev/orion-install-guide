@@ -4,7 +4,7 @@
 
 L'accès au système de demandes de certificats se fait en utilisant un certificat d'authentification.
 
-Afin de générer ce certificat vous aurez besoin de générér u CSR (Demande de signature de certificats - Certificate Signing Request), pour ceci je vous recommande l'utilisation de OpenSSL.
+Afin de générer ce certificat vous aurez besoin de générér un CSR (Demande de signature de certificats - Certificate Signing Request), pour ceci je vous recommande l'utilisation de OpenSSL.
 
 Génération de la CSR et des clés privées:
 
@@ -18,9 +18,9 @@ Cette commande créera deux fichiers nommés
 - `orion-pki.key` qui est votre clé privée
 - `orion-pki.csr` qui est votre demande de signature de certificat
 
-La prochaine étape est d'envoyer votre CSR à [Matthieu](mailto:matthieu+orioncsr@mpgn.dev), qui est l'administrateur du pki orion au temps de l'écriture de ce guide;
+La prochaine étape est d'envoyer votre CSR à [Matthieu](mailto:matthieu+orioncsr@mpgn.dev), qui est l'administrateur du pki Orion au temps de l'écriture de ce guide;
 
-Ce dernier vous posera quelques questions concernant votre lien avec le projet orion, et si tout se passe bien vous enverra un fichier `orion-pki.pem`, qui sera votre fichier de certificat.
+Ce dernier vous posera quelques questions concernant votre lien avec le projet Orion, et si tout se passe bien vous enverra un fichier `orion-pki.pem`, qui sera votre fichier de certificat.
 
 Désormais, le fichier `orion-pki.csr` peut être supprimé.
 

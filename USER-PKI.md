@@ -52,7 +52,25 @@ Pour finir, Chrome vous demandera le mot de passe du fichier `orion-pki.p12` cr�
 
 ![Image of the Chrome password prompt](./img/chrome_certificates_password_ask.png)
 
-Dès que ce dernier est importé, vous pouvez vous connecter à [https://pki.orionet.re](https://pki.orionet.re) pour continuer le guide.
-
 ### Firefox
 
+Se rendre dans [about:preferences#privacy](about:preferences#privacy) et trouver la partie "Sécurité > Certificats"
+
+![Image of the Firefox Certificates section](./img/firefox_certificates_config.png)
+
+Et sélectionner "Afficher les certificats..." 
+
+![Image of the Firefox Certificates Panel](./img/firefox_certificates_panel.png)
+
+Puis sélectionner "Importer..." dans l'onglet "Vos certificats" et sélectionner le fichier `.p12` crée durant la première partie.
+
+![Image of the file selector window](./img/certificates_file_selector.png)
+
+Par la suite, Firefox vous demandera le mot de passe donné au fichier `.p12` en première partie
+
+
+![Image of the Firefox password prompt](./img/firefox_certificates_password_ask.png)
+
+# Fin
+
+Dès que ce dernier est importé, vous pouvez vous connecter à [https://pki.orionet.re](https://pki.orionet.re) pour continuer le guide.

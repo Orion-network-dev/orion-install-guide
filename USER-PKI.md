@@ -18,7 +18,7 @@ Cette commande créera deux fichiers nommés
 - `orion-pki.key` qui est votre clé privée
 - `orion-pki.csr` qui est votre demande de signature de certificat
 
-La prochaine étape est d'envoyer votre CSR à Matthieu, qui est l'administrateur du pki orion au temps de l'écriture de ce guide;
+La prochaine étape est d'envoyer votre CSR à [Matthieu](mailto:matthieu+orioncsr@mpgn.dev), qui est l'administrateur du pki orion au temps de l'écriture de ce guide;
 
 Ce dernier vous posera quelques questions concernant votre lien avec le projet orion, et si tout se passe bien vous enverra un fichier `orion-pki.pem`, qui sera votre fichier de certificat.
 
